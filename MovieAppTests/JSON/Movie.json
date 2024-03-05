@@ -1,0 +1,67 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/4woSOUD0equAYzvwhWBHIJDCM88.jpg",
+      "genre_ids": [
+        28,
+        27,
+        53
+      ],
+      "id": 1096197,
+      "original_language": "en",
+      "original_title": "No Way Up",
+      "overview": "Characters from different backgrounds are thrown together when the plane they're travelling on crashes into the Pacific Ocean. A nightmare fight for survival ensues with the air supply running out and dangers creeping in from all sides.",
+      "popularity": 2991.229,
+      "poster_path": "/hu40Uxp9WtpL34jv3zyWLb5zEVY.jpg",
+      "release_date": "2024-01-18",
+      "title": "No Way Up",
+      "video": false,
+      "vote_average": 5.9,
+      "vote_count": 98
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ibk375gQlUnEUyqyQpt2rCiHll7.jpg",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "id": 693134,
+      "original_language": "en",
+      "original_title": "Dune: Part Two",
+      "overview": "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, Paul endeavors to prevent a terrible future only he can foresee.",
+      "popularity": 1923.174,
+      "poster_path": "/8b8R8l88Qje9dn9OE8PY05Nxl1X.jpg",
+      "release_date": "2024-02-27",
+      "title": "Dune: Part Two",
+      "video": false,
+      "vote_average": 8.5,
+      "vote_count": 671
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/bQS43HSLZzMjZkcHJz4fGc7fNdz.jpg",
+      "genre_ids": [
+        878,
+        10749,
+        35
+      ],
+      "id": 792307,
+      "original_language": "en",
+      "original_title": "Poor Things",
+      "overview": "Brought back to life by an unorthodox scientist, a young woman runs off with a debauched lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.",
+      "popularity": 1680.818,
+      "poster_path": "/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg",
+      "release_date": "2023-12-07",
+      "title": "Poor Things",
+      "video": false,
+      "vote_average": 8.031,
+      "vote_count": 1713
+    }
+  ],
+  "total_pages": 42793,
+  "total_results": 855841
+}
