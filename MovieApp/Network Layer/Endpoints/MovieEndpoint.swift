@@ -34,7 +34,7 @@ extension MoviesEndpoint: Endpoint {
 
     var header: [String: String]? {
         // Access Token to use in Bearer header
-        let accessToken = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0ZDNmOTlmYjhlNGM3ZmE5NjQ2OTc1ZDcxNjk0MmY3YSIsInN1YiI6IjY1ZTRjNzhiZmUwNzdhMDE2MjBmNWJlYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.9g731miXGHo7gcFbBYgQyeCPH8JzPO55mXw6u5T3mWU"
+        let accessToken = "--------place your access token here--------"
         switch self {
         case .popular, .topRated, .upcoming:
             return [

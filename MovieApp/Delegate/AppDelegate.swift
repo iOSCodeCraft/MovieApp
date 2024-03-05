@@ -5,11 +5,6 @@
 //  Created by manya on 02/03/24.
 //
 
-/*
- access token : eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0ZDNmOTlmYjhlNGM3ZmE5NjQ2OTc1ZDcxNjk0MmY3YSIsInN1YiI6IjY1ZTRjNzhiZmUwNzdhMDE2MjBmNWJlYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.9g731miXGHo7gcFbBYgQyeCPH8JzPO55mXw6u5T3mWU
- api key : 4d3f99fb8e4c7fa9646975d716942f7a
- */
-
 import UIKit
 
 @main
