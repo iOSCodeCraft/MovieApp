@@ -12,6 +12,7 @@ class ImageCarouselCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     
+    // update cell
     func loadData(imageName: String, titleName: String) {
         imageView.image = UIImage(named: "\(imageName)")
         titleLabel.text = titleName

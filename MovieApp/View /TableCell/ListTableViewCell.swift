@@ -23,14 +23,12 @@ class ListTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
+    // update cell
     func loadData(item:  Movie) {
         titleLabel.text = item.originalTitle
         // Use SDWebImage to load and cache images
         let imageUrl = URL(string: "\(ImageURL.imageUrl.rawValue)\(item.posterPath)")
         listImageView.sd_setImage(with: imageUrl, placeholderImage: UIImage(named: "placement"))
     }
-    func loadImage(from path: String) {
-            
-        }
+
 }

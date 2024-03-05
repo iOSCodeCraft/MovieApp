@@ -47,7 +47,7 @@ class ViewController: UIViewController {
         minHeight = 0.0
     }
     
-    // adding child view controller to the table header view for image carousel
+    // adding child view controller
     func setupCarouselView() {
         imageCarouselViewController = self.storyboard?.instantiateViewController(withIdentifier: "ImageCarouselViewController") as! ImageCarouselViewController
         imageCarouselViewController.delegate = self
@@ -57,6 +57,7 @@ class ViewController: UIViewController {
         imageCarouselViewController.didMove(toParent: self)
     }
     
+    // scroll delegate methods
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         self.dismissKeypad()
         let difference = scrollView.contentOffset.y - previousScrollingOffsetValue
@@ -79,7 +80,7 @@ class ViewController: UIViewController {
             self.view.layoutIfNeeded()
         }
     }
-    
+    // to dismiss keypad, you can use this method as per your requirements
     func dismissKeypad() {
         searchBar.searchTextField.resignFirstResponder()
     }

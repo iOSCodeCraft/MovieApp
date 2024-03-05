@@ -13,18 +13,23 @@ protocol ImageCarouselViewControllerDelegate: AnyObject {
 
 class ImageCarouselViewController: UIViewController {
 
+    // IBOutlets
     @IBOutlet weak var imagesCollectionView: UICollectionView!
     @IBOutlet weak var pageControl: UIPageControl!
     
+    //properties
     weak var delegate: ImageCarouselViewControllerDelegate?
-    var imageArray: [String] = ["TopRated", "Popular", "Upcoming"]
-    private var titleArray: [String] = ["Top Rated Movies", "Popular Movies", "Upcoming Movies"]
+    var imageArray: [String] = ["TopRated", "Popular", "Upcoming"] // you can change the data
+    private var titleArray: [String] = ["Top Rated Movies", "Popular Movies", "Upcoming Movies"] // you can change the data
+    
+    //MARK: View controller life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
         setupCollectionView()
     }
     
+    //set collection view
     func setupCollectionView() {
         imagesCollectionView.delegate = self
         imagesCollectionView.dataSource = self
@@ -39,14 +44,14 @@ class ImageCarouselViewController: UIViewController {
         delegate?.imageCarouselViewDidScroll(from: self, currentIndex: currentIndex)
     }
 }
-
+// collection view layout
 extension ImageCarouselViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: view.frame.width, height: view.frame.height)
     }
 }
 
-
+// CollectionViewDataSource
 extension ImageCarouselViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return imageArray.count
