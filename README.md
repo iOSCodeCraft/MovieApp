@@ -2,6 +2,8 @@
 
 ## Overview 
 This app shows Top Rated, Popular, Upcoming movie lists with images also clicking on them, navigate to another screen for movie details.
+![Simulator Screenshot - iPhone 15 Pro - 2024-03-05 at 15 09 09](https://github.com/Manya-garg/MovieApp/assets/96756075/c8885135-2e45-44f2-8101-3393ccee76d0)
+
 
 ## TMDB: The Movie Database
 To help us, we will use TMDB’s API to make some requests, which you can see in the documentation here. Briefly, TMDB is a database that contains information on movies, TV shows, series, etc.
@@ -17,8 +19,6 @@ Using the API is free, but that doesn’t mean it’s completely open. In order 
 4. Go to Settings > API: https://www.themoviedb.org/settings/api
 
 Done. At the bottom of the page, you will find your token in the API Read Access Token section. 
-
-I've added my access token, you can try with that. If it doesn't work, follow the documentation.
 
 Now, go to `MovieEndpoint` file , search for accessToken -> replace your accessToken here
 
@@ -82,9 +82,3 @@ To load json file content for testing, code is written in `MockTests` file
             XCTFail("This test should not fail")
         }
     }
-}
-```
- 
-
-
-
